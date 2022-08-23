@@ -9,5 +9,5 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(401).json({ message: "error api" });
+  res.status(401).json({ message: "Unauthorzed" });
 }
